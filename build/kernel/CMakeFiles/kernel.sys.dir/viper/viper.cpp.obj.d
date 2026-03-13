@@ -1,0 +1,31 @@
+kernel/CMakeFiles/kernel.sys.dir/viper/viper.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/viper/viper.cpp \
+  /Users/stephen/git/viperdos/kernel/viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../arch/aarch64/cpu.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../fs/vfs/vfs.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../fs/vfs/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../fs/vfs/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../fs/vfs/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../mm/pmm.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/address_space.hpp

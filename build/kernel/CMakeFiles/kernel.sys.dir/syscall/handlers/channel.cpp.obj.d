@@ -1,0 +1,31 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/handlers/channel.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/channel.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../sched/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../ipc/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/object.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../kobj/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/types.hpp

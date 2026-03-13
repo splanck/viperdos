@@ -1,0 +1,32 @@
+kernel/CMakeFiles/kernel.sys.dir/ipc/channel.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/ipc/channel.cpp \
+  /Users/stephen/git/viperdos/kernel/ipc/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../lib/mem.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/poll.hpp \
+  /Users/stephen/git/viperdos/kernel/ipc/../include/constants.hpp

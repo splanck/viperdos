@@ -1,0 +1,32 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/handlers/sysinfo.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/sysinfo.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/rng.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/../../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/virtio.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/../../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/virtio/virtqueue.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/config.hpp \
+  /Users/stephen/git/viperdos/kernel/include/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/kernel/include/../../include/viperdos/net_stats.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../mm/pmm.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/netstack.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../drivers/virtio/net.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../drivers/virtio/../../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../drivers/virtio/virtio.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../drivers/virtio/virtqueue.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/virtio_net.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../net/../include/types.hpp

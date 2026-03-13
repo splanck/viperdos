@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../libviperhttp.a CMakeFiles/viperhttp.dir/src/http.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../libviperhttp.a

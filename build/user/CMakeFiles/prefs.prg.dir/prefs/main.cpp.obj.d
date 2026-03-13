@@ -1,0 +1,19 @@
+user/CMakeFiles/prefs.prg.dir/prefs/main.cpp.obj: \
+  /Users/stephen/git/viperdos/user/prefs/main.cpp \
+  /Users/stephen/git/viperdos/user/prefs/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/prefs/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/../version.h \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/include/viperdos/mem_info.hpp

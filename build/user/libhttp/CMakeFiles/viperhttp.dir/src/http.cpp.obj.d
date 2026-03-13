@@ -1,0 +1,19 @@
+user/libhttp/CMakeFiles/viperhttp.dir/src/http.cpp.obj: \
+  /Users/stephen/git/viperdos/user/libhttp/src/http.cpp \
+  /Users/stephen/git/viperdos/user/libhttp/src/../include/http.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/arpa/inet.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/arpa/../netinet/in.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/arpa/../netinet/../sys/socket.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/arpa/../netinet/../sys/types.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/ctype.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/netdb.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/netinet/in.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/sys/socket.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/stdlib.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/string.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libtls/include/tls.h \
+  /Users/stephen/git/viperdos/user/libhttp/../libc/include/unistd.h

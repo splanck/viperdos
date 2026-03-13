@@ -1,0 +1,19 @@
+kernel/CMakeFiles/kernel.sys.dir/main.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/main.cpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/cpu.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/timer.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/boot/bootinfo.hpp \
+  /Users/stephen/git/viperdos/kernel/boot/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/console/gcon.hpp \
+  /Users/stephen/git/viperdos/kernel/console/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/init/init.hpp \
+  /Users/stephen/git/viperdos/kernel/sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/address_space.hpp \
+  /Users/stephen/git/viperdos/kernel/viper/../include/types.hpp

@@ -1,0 +1,33 @@
+kernel/CMakeFiles/kernel.sys.dir/arch/aarch64/timer.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/timer.cpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/timer.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/gcon.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/config.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/netstack.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../drivers/virtio/net.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../drivers/virtio/../../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../drivers/virtio/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../drivers/virtio/virtio.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../drivers/virtio/virtqueue.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/virtio_net.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../net/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../input/input.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../input/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../ipc/poll.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../ipc/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../tty/tty.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../tty/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/gic.hpp

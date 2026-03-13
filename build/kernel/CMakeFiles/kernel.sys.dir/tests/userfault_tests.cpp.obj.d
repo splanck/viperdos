@@ -1,0 +1,31 @@
+kernel/CMakeFiles/kernel.sys.dir/tests/userfault_tests.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/tests/userfault_tests.cpp \
+  /Users/stephen/git/viperdos/kernel/tests/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/poll.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/loader.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../loader/../viper/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/tests.hpp

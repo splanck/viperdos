@@ -1,0 +1,20 @@
+user/CMakeFiles/fsinfo.prg.dir/fsinfo/fsinfo.cpp.obj: \
+  /Users/stephen/git/viperdos/user/fsinfo/fsinfo.cpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/fsinfo/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/dirent.h \
+  /Users/stephen/git/viperdos/user/libc/include/errno.h \
+  /Users/stephen/git/viperdos/user/libc/include/fcntl.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdlib.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/stat.h \
+  /Users/stephen/git/viperdos/user/libc/include/unistd.h

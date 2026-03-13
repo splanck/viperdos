@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+4f3926534b0521dd77cf88a335e3a1a4 BOOTAA64.EFI
+9b797bdf27314453d0ddb6ec6b61309d CMakeFiles/disk_image
+9b797bdf27314453d0ddb6ec6b61309d CMakeFiles/sys_image
+9b797bdf27314453d0ddb6ec6b61309d CMakeFiles/user_image
+37c511eee96d297bd420380becc3aecd disk.img
+bc0e768fb5c745f2e4b46185946f2030 sys.img
+1ec6fe1390e0f5e0960d8072e870ce78 test_sanity
+2d9577a63743af1efa1040ce10fea6e8 test_ssh_crypto
+ee97f8adbeac4eef0de10fd395651915 tests/CMakeFiles/test_sanity
+ee97f8adbeac4eef0de10fd395651915 tests/CMakeFiles/test_ssh_crypto
+e1f8c491c07cc58a67f1b726c50f1858 user.img
+6391ea6fd97053547f2c8e67196a8908 vboot/CMakeFiles/bootloader
+7042f330d004fe9def2db95aa1f3e341 vboot/crt0.obj
+f849935591c06e840d600191968dc301 vboot/main.obj

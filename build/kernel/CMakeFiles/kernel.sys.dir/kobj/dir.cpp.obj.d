@@ -1,0 +1,19 @@
+kernel/CMakeFiles/kernel.sys.dir/kobj/dir.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/kobj/dir.cpp \
+  /Users/stephen/git/viperdos/kernel/kobj/dir.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/viperfs.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/../../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/../../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/../../lib/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/../cache.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../fs/viperfs/format.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/object.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp

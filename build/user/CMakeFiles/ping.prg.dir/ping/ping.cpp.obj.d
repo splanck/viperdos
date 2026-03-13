@@ -1,0 +1,22 @@
+user/CMakeFiles/ping.prg.dir/ping/ping.cpp.obj: \
+  /Users/stephen/git/viperdos/user/ping/ping.cpp \
+  /Users/stephen/git/viperdos/user/ping/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/ping/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/arpa/inet.h \
+  /Users/stephen/git/viperdos/user/libc/include/arpa/../netinet/in.h \
+  /Users/stephen/git/viperdos/user/libc/include/arpa/../netinet/../sys/socket.h \
+  /Users/stephen/git/viperdos/user/libc/include/arpa/../netinet/../sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/netdb.h \
+  /Users/stephen/git/viperdos/user/libc/include/netinet/in.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/socket.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdlib.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/user/libc/include/unistd.h

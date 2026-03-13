@@ -1,0 +1,19 @@
+user/CMakeFiles/vshell.prg.dir/vshell/main.cpp.obj: \
+  /Users/stephen/git/viperdos/user/vshell/main.cpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../include/viper_colors.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/../../syscall.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/../../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/ansi.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/text_buffer.hpp \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/servers/consoled/keymap.hpp

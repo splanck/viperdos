@@ -1,0 +1,21 @@
+user/servers/displayd/CMakeFiles/displayd.sys.dir/ipc.cpp.obj: \
+  /Users/stephen/git/viperdos/user/servers/displayd/ipc.cpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/ipc.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/types.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../include/viper_colors.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../syscall.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/../../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/display_protocol.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/compositor.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/events.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/state.hpp \
+  /Users/stephen/git/viperdos/user/servers/displayd/surface.hpp

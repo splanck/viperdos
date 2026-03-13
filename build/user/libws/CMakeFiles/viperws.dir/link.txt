@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../libviperws.a CMakeFiles/viperws.dir/src/websocket.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../libviperws.a

@@ -1,0 +1,21 @@
+user/CMakeFiles/shell.prg.dir/servers/consoled/embedded_shell.cpp.obj: \
+  /Users/stephen/git/viperdos/user/servers/consoled/embedded_shell.cpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/embedded_shell.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/ansi.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/text_buffer.hpp \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../syscall.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/../../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/keymap.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/shell_cmds.hpp \
+  /Users/stephen/git/viperdos/user/servers/consoled/shell_io.hpp

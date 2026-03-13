@@ -1,0 +1,508 @@
+Test: phase2_final_test
+Status: PASS
+Kernel: /Users/stephen/git/viper/viperdos/build/kernel.sys
+Disk: /Users/stephen/git/viper/viperdos/build/sys.img
+Timeout: 25s
+Expect patterns: displayd workbench Workbench
+Forbid patterns: 
+
+============================================================
+SERIAL OUTPUT:
+============================================================
+
+
+=========================================
+  ViperDOS v0.3.1 - AArch64
+  Mode: MONOLITHIC
+  Kernel services: fs=1 net=1 tls=0
+=========================================
+
+[bootinfo] FDT parse failed, using QEMU defaults
+[bootinfo] Boot method: QEMU direct (-kernel)
+[bootinfo] DTB pointer: 0x0
+[bootinfo] Kernel phys base: 0x40000000
+[bootinfo] Kernel size: 14880768 bytes
+[bootinfo] Framebuffer: none (will use ramfb)
+[bootinfo] Memory regions: 1
+  [0] 0x40000000 - 0x48000000 (128 MB) usable
+[bootinfo] Total usable memory: 128 MB
+
+[fwcfg] Checking fw_cfg at 0x9020000
+[fwcfg] Signature: 0x554d4551
+[fwcfg] QEMU fw_cfg detected
+[fwcfg] ID: 0x3
+[ramfb] Initializing framebuffer...
+[ramfb] Error: etc/ramfb not found in fw_cfg
+[ramfb] Make sure QEMU is started with -device ramfb
+[kernel] Running in serial-only mode
+
+[kernel] Initializing memory management...
+[kernel] Using boot info RAM region: 0x40000000 - 0x48000000 (128 MB)
+[pmm] Initializing physical memory manager
+[pmm] RAM: 0x40000000 - 0x48000000 (128 MB)
+[pmm] Framebuffer: 0x41000000 (9 MB)
+[buddy] Initializing: 0x41900000 - 0x48000000 (26368 pages)
+[buddy] Reserved up to: 0x41900000
+[buddy] Initialized with 26368 free pages
+[pmm] Buddy region: 0x41900000 - 0x48000000 (103 MB, 26368 pages)
+[pmm] Bitmap: 462 pages (1848 KB)
+[pmm] Total: 26830 free / 32768 total pages (104 MB free)
+[vmm] Initializing virtual memory manager
+[vmm] Root page table at 0x419ff000
+[vmm] VMM initialized (identity mapping active)
+[kheap] Initializing kernel heap with free list allocator
+[kheap] Heap at 0x419e0000 - 0x419f0000 (64 KB)
+[kernel] Testing heap allocation...
+[kernel] Allocated 1KB at 0x419e0010
+[kernel] Allocated 4KB at 0x419e0420
+[slab] Initializing slab allocator
+[slab] Slab allocator initialized
+[slab] Creating standard object caches
+[slab] Created cache 'inode' (obj_size=256, per_slab=15)
+[slab] Standard object caches created
+
+[kernel] Initializing exceptions and interrupts...
+[exceptions] Installing exception vectors
+[exceptions] Exception vectors installed
+[gic] Initializing GIC...
+[gic] Using GICv2 (default for QEMU virt)
+[gic] Initializing GICv2...
+[gic] Max IRQs: 288
+[gic] GICv2 initialized
+[timer] Initializing ARM architected timer
+[timer] Frequency: 62 MHz
+[timer] Interval: 62500 ticks/ms
+[timer] ns/tick (Q32): 0x1000000000
+[timer] ticks/us: 62
+[timer] Timer started (1000 Hz, high-resolution enabled)
+[cpu] Initializing CPU subsystem
+[cpu] Boot CPU ID: 0
+[cpu] PSCI version: 1.1
+[kernel] Interrupts enabled
+
+[kernel] Initializing task subsystem...
+[task] Initializing task subsystem
+[task] Task subsystem initialized
+[sched] Initializing priority scheduler
+[idle] Initializing idle state tracking
+[idle] Idle state tracking initialized
+[sched] Priority scheduler initialized (8 queues, per-CPU support)
+
+[kernel] Initializing channel subsystem...
+[channel] Initializing channel subsystem
+[channel] Channel subsystem initialized
+
+[kernel] Initializing poll subsystem...
+[poll] Initializing poll subsystem
+[timerwheel] Timer wheel initialized
+[poll] Poll subsystem initialized
+[pollset] Initializing pollset subsystem
+[pollset] Pollset subsystem initialized
+[poll] Testing poll functionality...
+[poll] Created test channel 1
+[poll] Test 1 (empty channel): poll returned 1, triggered=0x2
+[poll] Test 1 PASSED: writable but not readable
+[poll] Test 2 (message queued): poll returned 2, triggered=0x3
+[poll] Test 2 PASSED: readable after message sent
+[poll] Poll tests complete
+[pollset] Testing pollset functionality...
+[pollset] Created poll set 1
+[pollset] Test 1 (empty channel): wait returned 1, triggered=0x2
+[pollset] Test 1 PASSED: channel writable
+[pollset] Test 2 (message queued): wait returned 1, triggered=0x3
+[pollset] Test 2 PASSED: channel readable
+[pollset] Pollset tests complete
+
+[kernel] Initializing virtio subsystem...
+[virtio] Probing for devices...
+[virtio] Found network device at 0xa003a00
+[virtio] Found block device at 0xa003c00
+[virtio] Found rng device at 0xa003e00
+[virtio] Found 3 device(s)
+[virtio-rng] Scanning for RNG device...
+[virtio-rng] Found RNG device at 0xa003e00
+[virtqueue] Initialized queue 0 with 1024 descriptors (legacy)
+[virtio-rng] RNG device initialized (entropy source available)
+[virtio-blk] Initializing block device at 0xa003c00 (IRQ 78)
+[virtio-blk] Capacity: 4096 sectors (2 MB)
+[virtqueue] Initialized queue 0 with 128 descriptors (legacy)
+[virtio-blk] Driver initialized (interrupt-driven)
+[virtio-gpu] Starting gpu_init()...
+[virtio-gpu] No GPU device found
+[virtio-gpu] GPU device initialization failed or not present
+[virtio-input] Scanning for input devices...
+[virtio-input] Total virtio devices: 3
+[virtio-input] Device 0: type=1 (INPUT=18)
+[virtio-input] Device 1: type=2 (INPUT=18)
+[virtio-input] Device 2: type=4 (INPUT=18)
+[virtio-input] WARNING: No input devices found!
+[input] Initializing input subsystem
+[input] Input subsystem initialized
+[tty] Initializing TTY subsystem
+[tty] TTY subsystem initialized
+[console] Input buffer initialized (1024 bytes)
+[virtio-net] Initializing at 0xa003a00 (IRQ 77)
+[virtio-net] MAC: 52:54:00:12:34:56
+[virtqueue] Initialized queue 0 with 128 descriptors (legacy)
+[virtqueue] Initialized queue 1 with 128 descriptors (legacy)
+[virtio-net] Network device initialized
+[netstack] network_init() called
+[netstack] Network stack initialized
+[kernel] Testing ping to gateway (10.0.2.2)...
+[ip] ARP lookup miss for 10.0.2.2, sending ARP request
+[ip] ARP resolved after 0 polls
+[kernel] Ping successful! RTT: 0 ms
+[kernel] Testing DNS resolution (example.com)...
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+qemu-system-aarch64: virtio: zero sized buffers are not allowed
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[kernel] DNS resolution failed
+[kernel] Block device ready: 2 MB
+[kernel] Testing block read (sector 0)...
+[kernel] Read sector 0 OK!
+[kernel] Testing block write (sector 1)...
+[kernel] Write sector 1 OK
+[kernel] Read-back verified: Viper
+[kernel] Initializing block cache...
+[cache] Initializing block cache...
+[cache] Block cache initialized: 64 blocks (256 KB)
+[kernel] Testing block cache...
+[kernel] Cache block 0 OK, first bytes: 0x56 0x50 0x46 0x53 
+[kernel] Cache hit OK (same block returned)
+[kernel] Cache stats: hits=1, misses=1
+[kernel] Initializing ViperFS...
+[viperfs] Mounting filesystem...
+[viperfs] Mounted 'ViperDOS'
+[viperfs] Total blocks: 512, free: 309
+[viperfs] Root inode: 2
+[journal] Found existing journal (seq=1)
+[journal] Checking for transactions to replay...
+[journal] Replaying transaction seq=0
+[journal] Replay complete: 1 applied, 0 skipped
+[cache] Syncing dirty blocks...
+[cache] Synced 1 blocks
+[viperfs] Journaling enabled
+[kernel] ViperFS mounted: ViperDOS
+[kernel] Reading root directory...
+[kernel] Root inode: size=4096, mode=0x4007
+[kernel] Directory contents:
+  . (inode 2, type 2)
+  .. (inode 2, type 2)
+  vinit.sys (inode 3, type 1)
+  vinit.sys (inode 3, type 1)
+  consoled.sys (inode 4, type 1)
+  consoled.sys (inode 4, type 1)
+  displayd.sys (inode 5, type 1)
+  displayd.sys (inode 5, type 1)
+  workbench.sys (inode 6, type 1)
+  workbench.sys (inode 6, type 1)
+  hello_gui.prg (inode 7, type 1)
+  hello_gui.prg (inode 7, type 1)
+[kernel] hello.txt not found
+[kernel] Testing file creation...
+[kernel] Created test.txt at inode 9
+[kernel] Wrote 27 bytes
+[kernel] Read back: Written by ViperDOS kernel!
+[kernel] Updated directory contents:
+  . (inode 2)
+  .. (inode 2)
+  vinit.sys (inode 3)
+  vinit.sys (inode 3)
+  consoled.sys (inode 4)
+  consoled.sys (inode 4)
+  displayd.sys (inode 5)
+  displayd.sys (inode 5)
+  workbench.sys (inode 6)
+  workbench.sys (inode 6)
+  hello_gui.prg (inode 7)
+  hello_gui.prg (inode 7)
+  test.txt (inode 9)
+[cache] Syncing dirty blocks...
+[cache] Synced 5 blocks
+[kernel] Filesystem synced
+[kernel] Initializing VFS...
+[vfs] VFS initialized
+[kernel] Initializing user disk...
+[virtio-blk] User disk (8MB) not found
+[kernel] User disk not found
+[kernel] Testing VFS operations...
+[kernel] VFS open /c/hello.prg failed
+[cache] Syncing dirty blocks...
+[cache] Synced 1 blocks
+[kernel] Initializing Assign system...
+[assign] SYS: -> root inode 2 (system disk)
+[assign] D0:  -> root inode 2 (system disk)
+[assign] Assign system initialized
+[assign] Setting up standard assigns...
+[assign] C: skipped (/c not found)
+[assign] S: skipped (/s not found)
+[assign] L: skipped (/l not found)
+[assign] T: skipped (/t not found)
+[assign] CERTS: skipped (/certs not found)
+[assign] Active assigns:
+  SYS: inode=2 [SYSTEM]
+  D0: inode=2 [SYSTEM]
+[kernel] Testing assign inode resolution...
+  SYS -> inode 2 OK
+  D0 -> inode 2 OK
+  /sys/vinit.sys -> fd 3 OK
+  NONEXISTENT -> 0 (expected)
+
+[kernel] Configuring MMU for user space...
+[mmu] Configuring MMU for user space support...
+[mmu] Current SCTLR_EL1: 0xc50838 (M=0)
+[mmu] Creating kernel identity-mapped page tables...
+[mmu] L0 table at: 0x419db000
+[mmu] L1 table at: 0x419da000
+[mmu] L1[0] (device 0x0-0x3FFFFFFF): 0x40000000000701
+[mmu] L1[1] (normal 0x40000000-0x7FFFFFFF): 0x40000040000705
+[mmu] Creating kernel higher-half page tables (TTBR1)...
+[mmu] TTBR1 L0 table at: 0x419d9000
+[mmu] TTBR1 L1 table at: 0x419d8000
+[mmu] TTBR1 mapping: phys 0x0->0x7FFFFFFF at virt 0xFFFF_0000_0000_0000
+[mmu] MAIR_EL1 configured: 0x44ff00
+[mmu] TTBR1 tables ready (translations disabled until kernel relocation)
+[mmu] TCR_EL1 configured: 0x2b5903510
+[mmu] TTBR0_EL1 set to: 0x419db000
+[mmu] TTBR1_EL1 set to: 0x419d9000
+[mmu] Enabling MMU...
+[mmu] MMU enabled successfully!
+[mmu] Kernel running with identity-mapped page tables
+
+[kernel] Initializing Viper subsystem...
+[viper] Initializing Viper subsystem
+[asid] ASID allocator initialized (255 available)
+[viper] Viper subsystem initialized
+
+========================================
+  ViperDOS Storage Subsystem Tests
+========================================
+
+[SUITE] Assign System Tests
+[TEST] assign_sys_exists PASSED
+[TEST] assign_d0_exists PASSED
+[TEST] assign_case_insensitive PASSED
+[TEST] assign_is_system PASSED
+[TEST] assign_nonexistent PASSED
+[TEST] assign_create_remove PASSED
+[TEST] assign_system_readonly PASSED
+[TEST] assign_parse_path PASSED
+[TEST] assign_list PASSED
+
+[SUITE] VFS Tests
+[TEST] vfs_open_close FAILED: failed to open root directory
+[TEST] vfs_invalid_fd PASSED
+[TEST] vfs_getdents FAILED: failed to open root directory
+[TEST] vfs_file_create_write_read FAILED: failed to create file
+[TEST] vfs_mkdir_rmdir FAILED: mkdir failed
+[TEST] vfs_seek_operations FAILED: failed to create file
+[TEST] vfs_stat FAILED: stat on root failed
+
+========================================
+  Storage Tests Complete
+  Passed: 10
+  Failed: 6
+========================================
+[RESULT] SOME STORAGE TESTS FAILED
+[cache] Syncing dirty blocks...
+[cache] Synced 1 blocks
+[kernel] Filesystem synced after storage tests
+
+========================================
+  ViperDOS Viper Subsystem Tests
+========================================
+
+[SUITE] Channel Tests
+[TEST] channel_create PASSED
+[TEST] channel_send_recv PASSED
+[TEST] channel_multiple_messages PASSED
+
+[SUITE] Poll/Timer Tests
+[TEST] poll_channel_readable PASSED
+[TEST] poll_timeout PASSED
+[TEST] timer_create_expired PASSED
+[TEST] time_monotonic PASSED
+
+[SUITE] Capability Table Tests
+[cap] Created capability table with 64 slots
+[TEST] cap_table_basic PASSED
+
+========================================
+  Viper Tests Complete
+  Passed: 8
+  Failed: 0
+========================================
+[RESULT] ALL VIPER TESTS PASSED
+
+=== Syscall Dispatch Tests ===
+
+[Valid syscall]
+  [PASS] task_yield returns VOK
+
+[Invalid syscall number]
+  [PASS] unknown syscall returns VERR_NOT_SUPPORTED
+
+[Invalid pointer]
+  [PASS] bad pointer returns VERR_INVALID_ARG
+
+--- Results: 3 passed, 0 failed ---
+ALL SYSCALL TESTS PASSED
+[tests] Created channels: ping->pong=8, pong->ping=9
+[tests] Creating ping-pong test tasks...
+[task] Task ID 1 'ping' state=Ready stack=0x44006000
+[task] Task ID 2 'pong' state=Ready stack=0x4400b000
+[kernel] Testing Viper creation...
+[address_space] Created new address space: ASID=1, root=0x419d7000
+[cap] Created capability table with 256 slots
+[viper] Created Viper 'test_viper' ID=1, ASID=1, TTBR0=0x419d7000
+[viper] Viper 'test_viper':
+  ID: 1
+  State: Running
+  ASID: 1
+  TTBR0: 0x419d7000
+  Heap: 0x100000000 - 0x100000000
+  Tasks: 0
+[kernel] Mapped test page at 0x100000000
+[kernel] Translates to physical 0x419d5000
+[kernel] Unmapped test page
+[kernel] Testing capability table...
+[kernel] Inserted handle 0x1 (index=1, gen=0)
+[kernel] Handle lookup OK
+[kernel] Derive failed (expected - no CAP_DERIVE)
+[kernel] Derived handle 0x3 with CAP_READ only
+[kernel] Handle correctly invalidated after remove
+[kernel] Capability table: 3/256 slots used
+[kernel] Testing KObj blob...
+[blob] Created blob: 4096 bytes at phys 0x419d2000
+[kernel] Blob handle: 0x1000001, size=4096, phys=0x419d2000
+[kernel] Wrote 0xDEADBEEF to blob
+[kernel] KObj channel handle: 0x4, channel_id=10
+[kernel] Testing sbrk...
+[kernel]   Initial heap break: 0x100000000
+[kernel]   sbrk(0) returned correct break
+[kernel]   sbrk(4096) returned old break
+[kernel]   New heap break: 0x100001000
+[kernel]   Heap page mapped to phys: 0x419d1000
+[kernel]   Heap memory R/W test PASSED
+[kernel]   sbrk(8192) succeeded, new break: 0x100003000
+[kernel] sbrk test complete
+[kernel] Loading vinit from disk...
+[loader] Loading ELF from disk: /sys/vinit.sys
+[loader] File size: 200256 bytes
+[kheap] Non-contiguous heap expansion at 0x41940000 (196 KB)
+[loader] Loading ELF: entry=0x80000360, phnum=2
+[loader] Segment 0: vaddr=0x80000000, filesz=114616, memsz=143796, pages=36
+[loader] Segment loaded OK
+[loader] ELF loaded: entry=0x80000360, brk=0x80024000
+[kernel] vinit loaded successfully
+[kernel] User stack mapped at 0x7fffffef0000 - 0x7fffffff0000
+[task] Created user task 'vinit' (id=3, entry=0x80000360)
+[kernel] vinit task created, will run under scheduler
+
+Hello from ViperDOS!
+Kernel initialization complete.
+[cpu] Booting secondary CPUs...
+[cpu] Starting CPU 1 (MPIDR=0x1)...
+[cpu] CPU 1 started successfully
+[cpu] Starting CPU 2 (MPIDR=0x2)...
+[exceptions] Installing exception vectors
+[exceptions] Installing exception vectors
+[cpu] CPU [exceptions] Exception vectors installed
+[exceptions] Exception vectors installed
+2[cpu] Secondary CPU [cpu] Secondary CPU  started successfully
+12[cpu] Starting CPU  online
+ online
+3[cpu] CPU [cpu] CPU  (MPIDR=120x3 initializing GIC
+ initializing GIC
+)...
+[cpu] CPU [cpu] CPU [cpu] CPU [exceptions] Installing exception vectors
+312[exceptions] Exception vectors installed
+ initializing timer
+ initializing timer
+ started successfully
+[cpu] Secondary CPU Starting scheduler...
+[cpu] CPU [cpu] CPU 3[sched] Starting scheduler
+21 online
+ enabling interrupts
+ enabling interrupts
+[cpu] CPU [cpu] CPU [cpu] CPU 3[sched] First task: 21 initializing GIC
+ping entering idle loop
+ entering idle loop
+
+[cpu] CPU 3 initializing timer
+[cpu] CPU 3[ping] Starting ping task
+ enabling interrupts
+[ping] Sending PING #[cpu] CPU 03
+ entering idle loop
+[ping] Send failed!
+[ping] Ping task done!
+[task] Task 'ping' exiting with code 0
+[sched] Task 'ping' exited
+[sched] ping -> pong
+[pong] Starting pong task
+[pong] Recv failed!
+[pong] Pong task done!
+[task] Task 'pong' exiting with code 0
+[sched] Task 'pong' exited
+[sched] pong -> vinit
+[task] User task 'vinit' entering user mode
+[0m========================================
+  ViperDOS 0.2.0 - Init Process
+========================================
+
+[vinit] Starting ViperDOS...
+[vinit] Loaded from SYS:viper\vinit.vpr
+[vinit] Setting up assigns...
+  SYS: = D0:\
+  C:   = SYS:c
+  S:   = SYS:s
+  T:   = SYS:t
+
+[vinit] Testing malloc/sbrk...
+[vinit]   Initial heap: 0x3000
+[vinit]   Allocated 1KB at: 0x3000
+[vinit]   Memory R/W test PASSED
+[vinit] Starting display servers...
+[loader] Spawning process '/sys/displayd.sys' from /sys/displayd.sys
+[address_space] Created new address space: ASID=2, root=0x419c8000
+[cap] Created capability table with 256 slots
+[viper] Created Viper '/sys/displayd.sys' ID=2, ASID=2, TTBR0=0x419c8000
+[loader] Loading ELF from disk: /sys/displayd.sys
+[loader] File size: 90784 bytes
+[loader] Loading ELF: entry=0x80000000, phnum=2
+[loader] Segment 0: vaddr=0x80000000, filesz=22812, memsz=61825, pages=16
+[loader] Segment loaded OK
+[loader] ELF loaded: entry=0x80000000, brk=0x80010000
+[loader] User stack mapped at 0x7fffffef0000 - 0x7fffffff0000
+[task] Created user task '/sys/displayd.sys' (id=4, entry=0x80000000)
+[loader] Process '/sys/displayd.sys' spawned: pid=2, tid=4, entry=0x80000000
+[vinit] Spawned displayd (pid 2)
+[vinit] netd: not found
+[sched] vinit -> /sys/displayd.sys
+[task] User task '/sys/displayd.sys' entering user mode
+[0m[displayd] Starting display server...
+[displayd] Failed to map framebuffer
+[task] Task '/sys/displayd.sys' exiting with code 1
+[viper] Process '/sys/displayd.sys' exiting with code 1
+[sched] Task '/sys/displayd.sys' exited
+[sched] /sys/displayd.sys -> idle
+[vinit] DISPLAY: timeout waiting for registration
+[vinit] Monolithic kernel mode - using kernel services
+
+[vinit] Starting Workbench desktop...
+[loader] Spawning process '/sys/workbench.sys' from /sys/workbench.sys
+[address_space] Created new address space: ASID=3, root=0x419c1000
+[cap] Created capability table with 256 slots
+[viper] Created Viper '/sys/workbench.sys' ID=3, ASID=3, TTBR0=0x419c1000
+[loader] Loading ELF from disk: /sys/workbench.sys
+[loader] File size: 189272 bytes
+[kheap] Non-contiguous heap expansion at 0x47dc0000 (188 KB)
+qemu-system-aarch64: terminating on signal 15 from pid 99196 (<unknown process>)

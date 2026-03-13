@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephen/git/viperdos/kernel/arch/aarch64/boot.S
+
+/Users/stephen/git/viperdos/kernel/arch/aarch64/exceptions.S
+
+/Users/stephen/git/viperdos/kernel/sched/context.S
+

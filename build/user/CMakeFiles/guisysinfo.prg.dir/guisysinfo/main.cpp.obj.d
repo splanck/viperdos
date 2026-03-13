@@ -1,0 +1,19 @@
+user/CMakeFiles/guisysinfo.prg.dir/guisysinfo/main.cpp.obj: \
+  /Users/stephen/git/viperdos/user/guisysinfo/main.cpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/guisysinfo/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/task_info.hpp

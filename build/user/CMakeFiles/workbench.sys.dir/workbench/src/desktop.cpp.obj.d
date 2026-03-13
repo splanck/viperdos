@@ -1,0 +1,26 @@
+user/CMakeFiles/workbench.sys.dir/workbench/src/desktop.cpp.obj: \
+  /Users/stephen/git/viperdos/user/workbench/src/desktop.cpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/desktop.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/types.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../syscall.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/c++/../../../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../../../version.h \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/colors.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/../../include/viper_colors.h \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/theme.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/filebrowser.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/icons.hpp \
+  /Users/stephen/git/viperdos/user/workbench/src/../include/utils.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h

@@ -1,0 +1,19 @@
+user/CMakeFiles/taskman.prg.dir/taskman/main.cpp.obj: \
+  /Users/stephen/git/viperdos/user/taskman/main.cpp \
+  /Users/stephen/git/viperdos/user/taskman/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/taskman/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/libgui/include/gui.h \
+  /Users/stephen/git/viperdos/user/libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/include/viperdos/task_info.hpp

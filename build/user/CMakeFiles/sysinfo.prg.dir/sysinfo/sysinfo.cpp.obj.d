@@ -1,0 +1,19 @@
+user/CMakeFiles/sysinfo.prg.dir/sysinfo/sysinfo.cpp.obj: \
+  /Users/stephen/git/viperdos/user/sysinfo/sysinfo.cpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../syscall.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/sysinfo/../../include/viperdos/tls_info.hpp \
+  /Users/stephen/git/viperdos/user/libc/include/assert.h \
+  /Users/stephen/git/viperdos/user/libc/include/ctype.h \
+  /Users/stephen/git/viperdos/user/libc/include/errno.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libc/include/stdlib.h \
+  /Users/stephen/git/viperdos/user/libc/include/string.h \
+  /Users/stephen/git/viperdos/user/libc/include/time.h \
+  /Users/stephen/git/viperdos/user/libc/include/unistd.h

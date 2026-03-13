@@ -1,0 +1,20 @@
+user/libssh/CMakeFiles/viperssh.dir/ssh.cpp.obj: \
+  /Users/stephen/git/viperdos/user/libssh/ssh.cpp \
+  /Users/stephen/git/viperdos/user/libssh/include/ssh.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/stddef.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/sys/types.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/unistd.h \
+  /Users/stephen/git/viperdos/user/libssh/ssh_internal.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/stdbool.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/arpa/inet.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/arpa/../netinet/in.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/arpa/../netinet/../sys/socket.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/arpa/../netinet/../sys/types.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/errno.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/netdb.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/netinet/in.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/sys/socket.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/stdio.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/stdlib.h \
+  /Users/stephen/git/viperdos/user/libssh/../libc/include/string.h

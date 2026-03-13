@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../lib/liblibvirtio.a CMakeFiles/libvirtio.dir/src/virtio.cpp.obj CMakeFiles/libvirtio.dir/src/virtqueue.cpp.obj CMakeFiles/libvirtio.dir/src/blk.cpp.obj CMakeFiles/libvirtio.dir/src/net.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../lib/liblibvirtio.a

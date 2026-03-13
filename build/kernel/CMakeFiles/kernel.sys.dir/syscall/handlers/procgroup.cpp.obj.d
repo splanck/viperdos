@@ -1,0 +1,24 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/handlers/procgroup.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/procgroup.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../viper/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/types.hpp

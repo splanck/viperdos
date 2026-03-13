@@ -1,0 +1,316 @@
+Test: qemu_test
+Status: PASS
+Kernel: build/kernel.sys
+Disk: build/disk.img
+Timeout: 5s
+Expect patterns: displayd
+Forbid patterns: 
+
+============================================================
+SERIAL OUTPUT:
+============================================================
+
+
+=========================================
+  ViperDOS 0.3.1 - AArch64
+  Mode: MONOLITHIC
+  Kernel services: fs=1 net=1 tls=0
+=========================================
+
+[bootinfo] FDT parse failed, using QEMU defaults
+[bootinfo] Boot method: QEMU direct (-kernel)
+[bootinfo] DTB pointer: 0x0
+[bootinfo] Kernel phys base: 0x40000000
+[bootinfo] Kernel size: 9519104 bytes
+[bootinfo] Framebuffer: none (will use ramfb)
+[bootinfo] Memory regions: 1
+  [0] 0x40000000 - 0x48000000 (128 MB) usable
+[bootinfo] Total usable memory: 128 MB
+
+[fwcfg] Checking fw_cfg at 0x9020000
+[fwcfg] Signature: 0x554d4551
+[fwcfg] QEMU fw_cfg detected
+[fwcfg] ID: 0x3
+[ramfb] Initializing framebuffer...
+[ramfb] Error: etc/ramfb not found in fw_cfg
+[ramfb] Make sure QEMU is started with -device ramfb
+[kernel] Running in serial-only mode
+
+[kernel] Initializing memory management...
+[kernel] Using boot info RAM region: 0x40000000 - 0x48000000 (128 MB)
+[pmm] Initializing physical memory manager
+[pmm] RAM: 0x40000000 - 0x48000000 (128 MB)
+[pmm] Framebuffer: 0x41000000 (9 MB)
+[buddy] Initializing: 0x41900000 - 0x48000000 (26368 pages)
+[buddy] Reserved up to: 0x41900000
+[buddy] Initialized with 26368 free pages
+[pmm] Buddy region: 0x41900000 - 0x48000000 (103 MB, 26368 pages)
+[pmm] DEBUG: 0x41003000 NOT in buddy region
+[pmm] Bitmap region: 0x40915000 - 0x41000000
+[pmm] Bitmap: 1771 pages (7084 KB)
+[pmm] DEBUG: 0x41003000 NOT in bitmap region
+[pmm] Total: 28139 free / 32768 total pages (109 MB free)
+[vmm] Initializing virtual memory manager
+[vmm] Root page table at 0x419ff000
+[vmm] VMM initialized (identity mapping active)
+[kheap] Initializing kernel heap with free list allocator
+[kheap] Heap at 0x419e0000 - 0x419f0000 (64 KB)
+[kheap] Per-CPU arenas enabled
+[kernel] Testing heap allocation...
+[kernel] Allocated 1KB at 0x419e0010
+[kernel] Allocated 4KB at 0x419e0420
+[slab] Initializing slab allocator
+[slab] Slab allocator initialized
+[slab] Creating standard object caches
+[slab] Created cache 'inode' (obj_size=256, per_slab=15)
+[slab] Created cache 'task' (obj_size=1024, per_slab=3)
+[slab] Created cache 'viper' (obj_size=512, per_slab=7)
+[slab] Created cache 'channel' (obj_size=32, per_slab=127)
+[slab] Standard object caches created
+[pressure] Initializing memory pressure monitor
+[pressure] Registered callback: slab
+[pressure] Memory pressure monitor initialized
+
+[kernel] Initializing exceptions and interrupts...
+[exceptions] Installing exception vectors
+[exceptions] Exception vectors installed
+[gic] Initializing GIC...
+[gic] Using GICv2 (default for QEMU virt)
+[gic] Initializing GICv2...
+[gic] Max IRQs: 288
+[gic] GICv2 initialized
+[timer] Initializing ARM architected timer
+[timer] Frequency: 62 MHz
+[timer] Interval: 62500 ticks/ms
+[timer] ns/tick (Q32): 0x1000000000
+[timer] ticks/us: 62
+[timer] Timer started (1000 Hz, high-resolution enabled)
+[cpu] Initializing CPU subsystem
+[cpu] Boot CPU ID: 0
+[cpu] PSCI version: 1.1
+[kernel] Interrupts enabled
+[pl031] Initializing RTC at 0x9010000
+[pl031] Current RTC time: 1769737303 seconds since epoch
+[pl031] RTC initialized (wall-clock available)
+
+[kernel] Initializing task subsystem...
+[task] Initializing task subsystem
+[task] Task subsystem initialized
+[sched] Initializing per-CPU heap scheduler
+[idle] Initializing idle state tracking
+[idle] Idle state tracking initialized
+[sched] Per-CPU heap scheduler initialized
+
+[kernel] Initializing channel subsystem...
+[channel] Initializing channel subsystem
+[channel] Channel subsystem initialized
+
+[kernel] Initializing poll subsystem...
+[poll] Initializing poll subsystem
+[timerwheel] Timer wheel initialized
+[poll] Poll subsystem initialized
+[pollset] Initializing pollset subsystem
+[pollset] Pollset subsystem initialized
+[poll] Testing poll functionality...
+[poll] Created test channel 1
+[poll] Test 1 (empty channel): poll returned 1, triggered=0x2
+[poll] Test 1 PASSED: writable but not readable
+[poll] Test 2 (message queued): poll returned 2, triggered=0x3
+[poll] Test 2 PASSED: readable after message sent
+[poll] Poll tests complete
+[pollset] Testing pollset functionality...
+[pollset] Created poll set 1
+[pollset] Test 1 (empty channel): wait returned 1, triggered=0x2
+[pollset] Test 1 PASSED: channel writable
+[pollset] Test 2 (message queued): wait returned 1, triggered=0x3
+[pollset] Test 2 PASSED: channel readable
+[pollset] Pollset tests complete
+
+[kernel] Initializing virtio subsystem...
+[virtio] Probing for devices...
+[virtio] Found network device at 0xa003a00
+[virtio] Found block device at 0xa003c00
+[virtio] Found rng device at 0xa003e00
+[virtio] Found 3 device(s)
+[virtio-rng] Scanning for RNG device...
+[virtio-rng] Found RNG device at 0xa003e00
+[virtqueue] Initialized queue 0 with 1024 descriptors (legacy)
+[virtio-rng] RNG device initialized (entropy source available)
+[virtio-blk] Initializing block device at 0xa003c00 (IRQ 78)
+[virtio-blk] Capacity: 4096 sectors (2 MB)
+[virtqueue] Initialized queue 0 with 128 descriptors (legacy)
+[virtio-blk] Driver initialized (interrupt-driven)
+[virtio-gpu] Starting gpu_init()...
+[virtio-gpu] No GPU device found
+[virtio-gpu] GPU device initialization failed or not present
+[virtio-input] Scanning for input devices...
+[virtio-input] Total virtio devices: 3
+[virtio-input] Device 0: type=1 (INPUT=18)
+[virtio-input] Device 1: type=2 (INPUT=18)
+[virtio-input] Device 2: type=4 (INPUT=18)
+[virtio-input] WARNING: No input devices found!
+[virtio-snd] Starting sound_init()...
+[virtio-snd] No sound device found
+[virtio-snd] Sound device not present or init failed
+[input] Initializing input subsystem
+[input] Input subsystem initialized
+[tty] Initializing TTY subsystem
+[tty] TTY subsystem initialized
+[console] Input buffer initialized (1024 bytes)
+[virtio-net] Initializing at 0xa003a00 (IRQ 77)
+[virtio-net] MAC: 52:54:00:12:34:56
+[virtqueue] Initialized queue 0 with 128 descriptors (legacy)
+[virtqueue] Initialized queue 1 with 128 descriptors (legacy)
+[virtio-net] Network device initialized
+[netstack] network_init() called
+[netstack] Network stack initialized
+[kernel] Testing ping to gateway (10.0.2.2)...
+[ip] ARP lookup miss for 10.0.2.2, sending ARP request
+[ip] ARP resolved after 0 polls
+qemu-system-aarch64: virtio: zero sized buffers are not allowed
+[kernel] Ping failed (code 110)
+[kernel] Testing DNS resolution (example.com)...
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[ip] ARP lookup miss for 10.0.2.3, sending ARP request
+[ip] ARP resolution FAILED
+[kernel] DNS resolution failed
+[kernel] Block device ready: 2 MB
+[kernel] Testing block read (sector 0)...
+[kernel] Read sector 0 OK!
+[kernel] Testing block write (sector 1)...
+[kernel] Write sector 1 OK
+[kernel] Read-back verified: Viper
+[kernel] Initializing block cache...
+[cache] Initializing block cache...
+[cache] Block cache initialized: 64 blocks (256 KB)
+[kernel] Testing block cache...
+[kernel] Cache block 0 OK, first bytes: 0x56 0x50 0x46 0x53 
+[kernel] Cache hit OK (same block returned)
+[kernel] Cache stats: hits=1, misses=1
+[kernel] Initializing ViperFS...
+[viperfs] Mounting filesystem...
+[viperfs] Primary superblock valid (CRC32: 0xd0eb1311)
+[viperfs] Mounted 'ViperDOS'
+[viperfs] Total blocks: 512, free: 328
+[viperfs] Root inode: 2
+[journal] Found existing journal (seq=3)
+[journal] Checking for transactions to replay...
+[journal] No transactions to replay
+[viperfs] Journaling enabled
+[kernel] ViperFS mounted: ViperDOS
+[kernel] Reading root directory...
+[kernel] Root inode: size=4096, mode=0x4007
+[kernel] Directory contents:
+  . (inode 2, type 2)
+  .. (inode 2, type 2)
+  vinit.sys (inode 3, type 1)
+  consoled.sys (inode 4, type 1)
+  displayd.sys (inode 5, type 1)
+  workbench.sys (inode 6, type 1)
+  test.txt (inode 7, type 1)
+[kernel] hello.txt not found
+[kernel] Testing file creation...
+[viperfs] File already exists
+[kernel] Initializing VFS...
+[vfs] VFS initialized
+[kernel] Initializing user disk...
+[virtio-blk] User disk (8MB) not found
+[kernel] User disk not found
+[kernel] Testing VFS operations...
+[kernel] VFS open /c/hello.prg failed
+[kernel] Initializing Assign system...
+[assign] SYS: -> root inode 2 (system disk)
+[assign] D0:  -> root inode 2 (system disk)
+[assign] Assign system initialized
+[assign] Setting up standard assigns...
+[assign] C: skipped (/c not found)
+[assign] S: skipped (/s not found)
+[assign] L: skipped (/l not found)
+[assign] T: skipped (/t not found)
+[assign] CERTS: skipped (/certs not found)
+[assign] Active assigns:
+  SYS: inode=2 [SYSTEM]
+  D0: inode=2 [SYSTEM]
+[kernel] Testing assign inode resolution...
+  SYS -> inode 2 OK
+  D0 -> inode 2 OK
+  /sys/vinit.sys -> fd 3 OK
+  NONEXISTENT -> 0 (expected)
+
+[kernel] Configuring MMU for user space...
+[mmu] Configuring MMU for user space support...
+[mmu] Current SCTLR_EL1: 0xc50838 (M=0)
+[mmu] Creating kernel identity-mapped page tables...
+[mmu] L0 table at: 0x419db000
+[mmu] L1 table at: 0x419da000
+[mmu] L1[0] (device 0x0-0x3FFFFFFF): 0x40000000000701
+[mmu] L1[1] (normal 0x40000000-0x7FFFFFFF): 0x40000040000705
+[mmu] Creating kernel higher-half page tables (TTBR1)...
+[mmu] TTBR1 L0 table at: 0x419d9000
+[mmu] TTBR1 L1 table at: 0x419d8000
+[mmu] TTBR1 mapping: phys 0x0->0x7FFFFFFF at virt 0xFFFF_0000_0000_0000
+[mmu] MAIR_EL1 configured: 0x44ff00
+[mmu] TTBR1 tables ready (translations disabled until kernel relocation)
+[mmu] TCR_EL1 configured: 0x2b5903510
+[mmu] TTBR0_EL1 set to: 0x419db000
+[mmu] TTBR1_EL1 set to: 0x419d9000
+[mmu] Enabling MMU...
+[mmu] MMU enabled successfully!
+[mmu] Kernel running with identity-mapped page tables
+
+[kernel] Initializing Viper subsystem...
+[viper] Initializing Viper subsystem
+[asid] ASID allocator initialized (255 available)
+[viper] Viper subsystem initialized
+
+========================================
+  ViperDOS Storage Subsystem Tests
+========================================
+
+[SUITE] Assign System Tests
+[TEST] assign_sys_exists PASSED
+[TEST] assign_d0_exists PASSED
+[TEST] assign_case_insensitive PASSED
+[TEST] assign_is_system PASSED
+[TEST] assign_nonexistent PASSED
+[TEST] assign_create_remove PASSED
+[TEST] assign_system_readonly PASSED
+[TEST] assign_parse_path PASSED
+[TEST] assign_list PASSED
+
+[SUITE] VFS Tests
+[TEST] vfs_open_close FAILED: failed to open root directory
+[TEST] vfs_invalid_fd PASSED
+[TEST] vfs_getdents FAILED: failed to open root directory
+[TEST] vfs_file_create_write_read FAILED: failed to create file
+[TEST] vfs_mkdir_rmdir FAILED: mkdir failed
+[TEST] vfs_seek_operations FAILED: failed to create file
+[TEST] vfs_stat FAILED: stat on root failed
+
+========================================
+  Storage Tests Complete
+  Passed: 10
+  Failed: 6
+========================================
+[RESULT] SOME STORAGE TESTS FAILED
+[kernel] Filesystem synced after storage tests
+
+========================================
+  ViperDOS Viper Subsystem Tests
+========================================
+
+[SUITE] Channel Tests
+[TEST] channel_create PASSED
+[TEST] channel_send_recv PASSED
+[TEST] channel_multiple_messages PASSED
+
+[SUITE] Poll/Timer Tests
+[TEST] poll_channel_readable PASSED
+qemu-system-aarch64: terminating on signal 15 from pid 23107 (<unknown process>)

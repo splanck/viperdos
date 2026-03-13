@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../libvipertls.a CMakeFiles/vipertls.dir/src/crypto.cpp.obj CMakeFiles/vipertls.dir/src/tls.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../libvipertls.a

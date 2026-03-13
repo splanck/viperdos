@@ -1,0 +1,19 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/handlers/signal.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/signal.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/signal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/types.hpp

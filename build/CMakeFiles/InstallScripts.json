@@ -1,0 +1,26 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/stephen/git/viperdos/build/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/vboot/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/kernel/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libc/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libvirtio/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/servers/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/servers/consoled/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/servers/displayd/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libssh/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libtls/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libhttp/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libws/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libgui/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/libwidget/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/calc/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/vedit/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/clock/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/user/viewer/cmake_install.cmake",
+		"/Users/stephen/git/viperdos/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

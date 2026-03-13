@@ -1,0 +1,24 @@
+kernel/CMakeFiles/kernel.sys.dir/tests/ipc_tests.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/tests/ipc_tests.cpp \
+  /Users/stephen/git/viperdos/kernel/tests/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../include/syscall.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../include/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../include/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../ipc/../sched/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/tests.hpp

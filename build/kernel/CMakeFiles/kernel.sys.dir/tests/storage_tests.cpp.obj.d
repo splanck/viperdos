@@ -1,0 +1,20 @@
+kernel/CMakeFiles/kernel.sys.dir/tests/storage_tests.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/tests/storage_tests.cpp \
+  /Users/stephen/git/viperdos/kernel/tests/../assign/assign.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../assign/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../assign/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../assign/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../assign/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/vfs/vfs.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/vfs/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/vfs/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/vfs/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/viperfs.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/../../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/../../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/../cache.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/../fs/viperfs/format.hpp \
+  /Users/stephen/git/viperdos/kernel/tests/tests.hpp

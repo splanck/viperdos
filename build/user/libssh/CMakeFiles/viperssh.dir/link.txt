@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../libviperssh.a CMakeFiles/viperssh.dir/ssh.cpp.obj CMakeFiles/viperssh.dir/ssh_auth.cpp.obj CMakeFiles/viperssh.dir/ssh_channel.cpp.obj CMakeFiles/viperssh.dir/ssh_crypto.cpp.obj CMakeFiles/viperssh.dir/sftp.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../libviperssh.a

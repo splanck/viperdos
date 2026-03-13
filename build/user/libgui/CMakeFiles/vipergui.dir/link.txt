@@ -1,0 +1,2 @@
+/opt/homebrew/bin/aarch64-elf-ar qc ../../lib/libvipergui.a CMakeFiles/vipergui.dir/src/gui.cpp.obj
+/opt/homebrew/bin/aarch64-elf-ranlib ../../lib/libvipergui.a

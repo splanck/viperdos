@@ -1,0 +1,33 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/table.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/table.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../include/../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/../viper/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp

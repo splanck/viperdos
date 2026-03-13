@@ -1,0 +1,33 @@
+kernel/CMakeFiles/kernel.sys.dir/arch/aarch64/exceptions.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/exceptions.cpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/exceptions.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/gcon.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../mm/fault.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../mm/../arch/aarch64/exceptions.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/scheduler.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../sched/signal.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/address_space.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/viper.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../mm/vma.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../mm/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../mm/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/arch/aarch64/../../viper/../sched/task.hpp

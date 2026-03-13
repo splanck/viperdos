@@ -1,0 +1,23 @@
+user/libgui/CMakeFiles/vipergui.dir/src/gui.cpp.obj: \
+  /Users/stephen/git/viperdos/user/libgui/src/gui.cpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../include/gui.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_header_macro.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_null.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_nullptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
+  /Users/stephen/git/viperdos/user/libgui/src/../../servers/displayd/display_protocol.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../syscall.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/fs_types.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/syscall_nums.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/cap_info.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/mem_info.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/syscall_abi.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/user/libgui/src/../../../include/viperdos/tls_info.hpp

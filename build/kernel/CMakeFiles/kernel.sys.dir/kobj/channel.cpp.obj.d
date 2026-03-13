@@ -1,0 +1,24 @@
+kernel/CMakeFiles/kernel.sys.dir/kobj/channel.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/kobj/channel.cpp \
+  /Users/stephen/git/viperdos/kernel/kobj/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/channel.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../cap/../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/wait.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../ipc/../sched/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/object.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/kobj/../console/serial.hpp \
+  /Users/stephen/git/viperdos/kernel/include/types.hpp

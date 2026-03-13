@@ -1,0 +1,24 @@
+kernel/CMakeFiles/kernel.sys.dir/syscall/handlers/time.cpp.obj: \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/time.cpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../arch/aarch64/timer.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../arch/aarch64/../../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../arch/aarch64/../../include/../../include/viperdos/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/pl031.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../drivers/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/poll.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../include/constants.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../ipc/../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/task.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../sched/../../include/viperdos/task_info.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/handlers_internal.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/spinlock.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/../lib/../include/types.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/handle.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../cap/rights.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../table.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/error.hpp \
+  /Users/stephen/git/viperdos/kernel/syscall/handlers/../../include/types.hpp
